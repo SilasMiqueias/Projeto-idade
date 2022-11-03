@@ -44,7 +44,7 @@ function verificar(){
                             img.setAttribute('src', 'idosa.jpg')
                             }
         }
-        res.innerHTML = `Detectamos que voçê é ${genero} é tem ${idade} anos.` 
+        res.innerHTML = `Detectamos que voçê é ${genero} e tem ${idade} anos.` 
         res.appendChild(img)
     }
 }
